@@ -1,6 +1,5 @@
 let books = require("./../model/book");
 let sequelizeInstance = require("../config/db.config");
-let bodyParser = require("body-parser");
 let express = require("express");
 let expressApp = express();
 
@@ -15,18 +14,22 @@ let insertBooks = async () => {
     {
       name: "The Book thief",
       author: "markus",
+      published: 23 - 10 - 2005,
     },
     {
       name: "The Graveyard Book",
       author: "Neil",
+      published: 23 - 10 - 2010,
     },
     {
-      name: "The NoteBook",
+      name: "The_NoteBook",
       author: "Nicholas",
+      published: 23 - 10 - 2015,
     },
     {
       name: "The Jungle Book",
       author: "Rudyard",
+      published: 23 - 10 - 2020,
     },
   ]);
 };

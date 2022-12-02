@@ -18,6 +18,10 @@ let categoryModel = dbconnection.define(
       notNull: true,
       type: sequelize.DataTypes.STRING,
     },
+    published: {
+      notNull: true,
+      type: sequelize.DataTypes.DATE,
+    },
   },
   {
     timestamps: false,
