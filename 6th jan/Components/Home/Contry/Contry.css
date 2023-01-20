@@ -1,0 +1,27 @@
+.contry_info {
+  background-color: aquamarine;
+}
+
+.contry {
+  background-color: black;
+}
+
+.flag {
+  font-size: 20px;
+  color: blueviolet;
+  padding: 1px;
+  margin: 20px auto;
+}
+
+.capital {
+  font-size: 20px;
+  color: chocolate;
+  padding: 1px;
+  margin: 20px auto;
+}
+.currency {
+  font-size: 20px;
+  color: rgb(49, 25, 7);
+  padding: 1px;
+  margin: 20px auto;
+}
